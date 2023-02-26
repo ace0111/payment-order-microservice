@@ -27,8 +27,8 @@ http://localhost:9411/ - zipkin
 
 run zipkin first
 
-#Request for order
-
+## Request for order
+'''
 POST http://localhost:8989/order/bookOrder
 
 {
@@ -40,9 +40,10 @@ POST http://localhost:8989/order/bookOrder
     },
     "payment": {}
 }
+'''
+## Request for payment
 
-#Request for payment
-
+'''
 POST http://localhost:8989/payment/doPayment
 
 {
@@ -50,3 +51,5 @@ POST http://localhost:8989/payment/doPayment
 }
 
 GET http://localhost:8989/payment/115
+
+'''
