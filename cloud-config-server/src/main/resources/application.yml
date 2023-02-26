@@ -9,8 +9,8 @@ spring:
       server:
         git:
           uri: https://github.com/ace0111/cloud-config-server
-          username: deyarghya2305@gmail.com
-          password: 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
+          username: de******@gmail.com
+          password: *********************************
           clone-on-start: true
           force-pull: true
           default-label: main
