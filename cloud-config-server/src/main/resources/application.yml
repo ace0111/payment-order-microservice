@@ -1,0 +1,26 @@
+server:
+  port: 9196
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ace0111/cloud-config-server
+          username: deyarghya2305@gmail.com
+          password: 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
+          clone-on-start: true
+          force-pull: true
+          default-label: main
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost    
